@@ -4,7 +4,7 @@ const downloadBtn = document.getElementById('downloadBtn');
 const messageArea = document.getElementById('message');
 
 // The URL of our backend server API
-const API_ENDPOINT = 'http://localhost:3000/api/process-url';
+const API_ENDPOINT = 'https://replit.com/@jisan143/video-downloder';
 
 // Add an event listener to the download button
 downloadBtn.addEventListener('click', handleDownloadRequest);
